@@ -1,0 +1,21 @@
+3DViewer на Qt6
+
+Установка:
+    sudo apt install qt6-base-dev
+    sudo apt install qtcreator
+    sudo apt install qtchooser
+    sudo apt install qml-qt6
+    qmake6 --version
+
+Сборка:    
+    qmake6 -makefile (qmake -makefile)
+    make
+
+Запуск:
+    ./3DViewer
+
+Сборка и запуск тестов:
+    make test
+
+Очистка:
+    make distclean
